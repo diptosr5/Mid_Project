@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>REGISTRATION</b></legend>
+        <form action="../controller/regcheck.php" method="POST">
+
+                    Username<br>
+                    <input name="userName" type="text" placeholder="username"><br>
+                    Email<br>
+                    <input name="email" type="email" placeholder="email"><br>
+                    Password<br>
+                        <input name="password" type="password" placeholder="password"><br>
+                    Confirm Password<br>
+                    <input name="confirmPassword" type="password" placeholder="confirm password"><br>
+                    User Type<br><hr>
+                            <input type="radio" name="type" value ="admin">Admin
+                            <input type="radio" name="type" value ="faculty">Faculty
+                            <input type="radio" name="type" value ="instructor">Instructor
+                            <input type="radio" name="type" value ="student">Student
+            <hr/>
+            <input type="submit" name="submit" value="Sign Up">
+            <a href="../views/login.html">Sign In</a>
+        </form>
+    </fieldset>
+    <footer>
+        <h4 align="center">All Copyright to University HUB</h4>
+    </footer>
+</body>
+</html>

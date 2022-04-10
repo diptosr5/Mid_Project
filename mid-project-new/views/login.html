@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h2 align="center">Welcome to University HUB</h2>
+    </header>
+
+    <fieldset>
+        <legend><b>LOGIN</b></legend>
+        <form action="../controller/logcheck.php" method="POST">
+
+                    User ID<br>
+                    <input type="text" name="userName" required placeholder="ID"><br>
+
+                    Password<br>
+                    <input type="password" name="password" required placeholder="Password"><br>
+            <hr />
+            <input type="submit" name="submit" value="Login"> 
+            <a href="../views/registration.html">Register</a>     
+        </form>
+    </fieldset>
+
+    <footer>
+        <h4 align="center">All Copyright to University HUB</h4>
+    </footer>
+</body>
+</html>

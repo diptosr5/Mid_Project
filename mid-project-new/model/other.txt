@@ -1,0 +1,6 @@
+alal|dddd|diptosr5@gmail.com|instructor
+dfdf|dddd|diptosr5@gmail.com|student
+kala|dddd|diptosr5@gmail.com|instructor
+sayem|dddd|diptosr5@gmail.com|student
+abcde|abcde|abcde@gmail.com|faculty
+hhhhh|ddddd|diptosr5@gmail.com|student
